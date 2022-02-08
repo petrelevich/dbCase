@@ -34,7 +34,9 @@ public class SalaryDao {
                 pst.setInt(1, val);
                 pst.setLong(2, id);
 
+                logger.info("executeUpdate");
                 pst.executeUpdate();
+                logger.info("executeUpdate done");
             }
         } catch (SQLException ex) {
             throw new SellaryOperationException("salary creation error", ex);
