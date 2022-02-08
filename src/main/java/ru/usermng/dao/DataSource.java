@@ -25,7 +25,7 @@ public class DataSource implements javax.sql.DataSource {
             connection.setAutoCommit(false);
             return connection;
         } catch (SQLException ex) {
-            throw new SellaryOperationException("Getting connection error", ex);
+            throw new SalaryOperationException("Getting connection error", ex);
         }
     }
 

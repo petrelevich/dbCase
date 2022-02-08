@@ -24,7 +24,7 @@ public class SalaryDao {
                 }
             }
         } catch (SQLException ex) {
-            throw new SellaryOperationException("salary creation error", ex);
+            throw new SalaryOperationException("salary creation error", ex);
         }
     }
 
@@ -39,7 +39,7 @@ public class SalaryDao {
                 logger.info("executeUpdate done");
             }
         } catch (SQLException ex) {
-            throw new SellaryOperationException("salary creation error", ex);
+            throw new SalaryOperationException("salary creation error", ex);
         }
     }
 
@@ -55,7 +55,7 @@ public class SalaryDao {
                 }
             }
         } catch (SQLException ex) {
-            throw new SellaryOperationException("salary selection error", ex);
+            throw new SalaryOperationException("salary selection error", ex);
         }
         return Optional.empty();
     }

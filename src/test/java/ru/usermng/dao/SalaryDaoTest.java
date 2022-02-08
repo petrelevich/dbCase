@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class SelaryDaoTest {
+class SalaryDaoTest {
     private static final Logger logger = LoggerFactory.getLogger(SalaryDao.class);
     private static final PostgreSQLContainer<PostgreSQLContainerShared> POSTGRE_SQL_CONTAINER = PostgreSQLContainerShared.getInstance();
 
